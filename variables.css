@@ -1,10 +1,10 @@
 /* ======================================================================
-		Root Variables
-		====================================================================== */
+	Root Variables
+====================================================================== */
 :root {
   /* ======================================================================
-			Color Variables
-			====================================================================== */
+	Color Variables
+  ====================================================================== */
   /* Primary Palette */
   --color-primary: #3498db; /* Main primary color */
   --color-primary-light: #5dade2; /* Lighter shade of primary color */
@@ -38,8 +38,8 @@
   --color-contrast-low: #666666; /* Low contrast color for secondary elements */
 
   /* ======================================================================
-			Typography Variables
-			====================================================================== */
+	Typography Variables
+  ====================================================================== */
   /* Font Families */
   --font-family-sans: "Helvetica Neue", Arial, sans-serif; /* Sans-serif font family */
   --font-family-serif: "Georgia", Times, "Times New Roman", serif; /* Serif font family */
@@ -64,8 +64,8 @@
   --line-height-condensed: 1.25; /* Condensed line height */
 
   /* ======================================================================
-			Spacing Variables
-			====================================================================== */
+	Spacing Variables
+  ====================================================================== */
   /* Spacing */
   --spacing-xs: 4px; /* Extra small spacing */
   --spacing-sm: 8px; /* Small spacing */
@@ -85,8 +85,8 @@
   --box-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1); /* Large box shadow */
 
   /* ======================================================================
-			Layout Variables
-			====================================================================== */
+	Layout Variables
+  ====================================================================== */
   /* Breakpoints */
   --breakpoint-xs: 480px; /* Extra small breakpoint */
   --breakpoint-sm: 576px; /* Small breakpoint */
@@ -101,8 +101,8 @@
   --container-width-xl: 1140px; /* Extra large container width */
 
   /* ======================================================================
-			Animation Variables
-			====================================================================== */
+	Animation Variables
+  ====================================================================== */
   /* Durations */
   --animation-duration-fast: 0.2s; /* Fast animation duration */
   --animation-duration-medium: 0.5s; /* Medium animation duration (default) */
@@ -129,8 +129,8 @@
   ); /* Ease-in-out timing function */
 
   /* ======================================================================
-			Z-Index Variables
-			====================================================================== */
+	Z-Index Variables
+  ====================================================================== */
   --z-index-dropdown: 1000; /* Z-index for dropdowns */
   --z-index-sticky: 1020; /* Z-index for sticky elements */
   --z-index-fixed: 1030; /* Z-index for fixed elements */
