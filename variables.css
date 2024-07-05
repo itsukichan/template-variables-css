@@ -1,0 +1,140 @@
+/* ======================================================================
+		Root Variables
+		====================================================================== */
+:root {
+  /* ======================================================================
+			Color Variables
+			====================================================================== */
+  /* Primary Palette */
+  --color-primary: #3498db; /* Main primary color */
+  --color-primary-light: #5dade2; /* Lighter shade of primary color */
+  --color-primary-dark: #2e86c1; /* Darker shade of primary color */
+
+  /* Secondary Palette */
+  --color-secondary: #2ecc71; /* Main secondary color */
+  --color-secondary-light: #58d68d; /* Lighter shade of secondary color */
+  --color-secondary-dark: #28b463; /* Darker shade of secondary color */
+
+  /* Neutral Palette */
+  --color-background: #ecf0f1; /* Default background color */
+  --color-surface: #ffffff; /* Surface background color */
+  --color-border: #bdc3c7; /* Default border color */
+  --color-text: #2c3e50; /* Default text color */
+  --color-text-light: #7f8c8d; /* Light text color */
+
+  /* Alerts */
+  --color-success: #28a745; /* Success message color */
+  --color-warning: #ffc107; /* Warning message color */
+  --color-danger: #dc3545; /* Danger message color */
+
+  /* Dark Mode */
+  --color-background-dark: #2c3e50; /* Dark mode background color */
+  --color-surface-dark: #34495e; /* Dark mode surface color */
+  --color-text-dark: #ecf0f1; /* Dark mode text color */
+
+  /* Accessibility */
+  --color-focus: #ffcc00; /* Focus outline color for accessibility */
+  --color-contrast-high: #000000; /* High contrast color for better readability */
+  --color-contrast-low: #666666; /* Low contrast color for secondary elements */
+
+  /* ======================================================================
+			Typography Variables
+			====================================================================== */
+  /* Font Families */
+  --font-family-sans: "Helvetica Neue", Arial, sans-serif; /* Sans-serif font family */
+  --font-family-serif: "Georgia", Times, "Times New Roman", serif; /* Serif font family */
+  --font-family-monospace: "Courier New", Courier, monospace; /* Monospace font family */
+
+  /* Font Sizes */
+  --font-size-xs: 12px; /* Extra small font size */
+  --font-size-sm: 14px; /* Small font size */
+  --font-size-md: 16px; /* Medium font size (default) */
+  --font-size-lg: 20px; /* Large font size */
+  --font-size-xl: 24px; /* Extra large font size */
+  --font-size-xxl: 32px; /* Double extra large font size */
+
+  /* Font Weights */
+  --font-weight-normal: 400; /* Normal font weight */
+  --font-weight-bold: 700; /* Bold font weight */
+  --font-weight-light: 300; /* Light font weight */
+
+  /* Line Heights */
+  --line-height-normal: 1.5; /* Default line height */
+  --line-height-relaxed: 1.75; /* Relaxed line height */
+  --line-height-condensed: 1.25; /* Condensed line height */
+
+  /* ======================================================================
+			Spacing Variables
+			====================================================================== */
+  /* Spacing */
+  --spacing-xs: 4px; /* Extra small spacing */
+  --spacing-sm: 8px; /* Small spacing */
+  --spacing-md: 16px; /* Medium spacing (default) */
+  --spacing-lg: 24px; /* Large spacing */
+  --spacing-xl: 32px; /* Extra large spacing */
+  --spacing-xxl: 40px; /* Double extra large spacing */
+
+  /* Border Radius */
+  --border-radius-sm: 4px; /* Small border radius */
+  --border-radius-md: 8px; /* Medium border radius (default) */
+  --border-radius-lg: 12px; /* Large border radius */
+
+  /* Box Shadows */
+  --box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1); /* Small box shadow */
+  --box-shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1); /* Medium box shadow (default) */
+  --box-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.1); /* Large box shadow */
+
+  /* ======================================================================
+			Layout Variables
+			====================================================================== */
+  /* Breakpoints */
+  --breakpoint-xs: 480px; /* Extra small breakpoint */
+  --breakpoint-sm: 576px; /* Small breakpoint */
+  --breakpoint-md: 768px; /* Medium breakpoint (default) */
+  --breakpoint-lg: 992px; /* Large breakpoint */
+  --breakpoint-xl: 1200px; /* Extra large breakpoint */
+
+  /* Container Widths */
+  --container-width-sm: 540px; /* Small container width */
+  --container-width-md: 720px; /* Medium container width */
+  --container-width-lg: 960px; /* Large container width */
+  --container-width-xl: 1140px; /* Extra large container width */
+
+  /* ======================================================================
+			Animation Variables
+			====================================================================== */
+  /* Durations */
+  --animation-duration-fast: 0.2s; /* Fast animation duration */
+  --animation-duration-medium: 0.5s; /* Medium animation duration (default) */
+  --animation-duration-slow: 1s; /* Slow animation duration */
+
+  /* Timing Functions */
+  --animation-timing-ease-in: cubic-bezier(
+    0.4,
+    0,
+    1,
+    1
+  ); /* Ease-in timing function */
+  --animation-timing-ease-out: cubic-bezier(
+    0,
+    0,
+    0.2,
+    1
+  ); /* Ease-out timing function */
+  --animation-timing-ease-in-out: cubic-bezier(
+    0.4,
+    0,
+    0.2,
+    1
+  ); /* Ease-in-out timing function */
+
+  /* ======================================================================
+			Z-Index Variables
+			====================================================================== */
+  --z-index-dropdown: 1000; /* Z-index for dropdowns */
+  --z-index-sticky: 1020; /* Z-index for sticky elements */
+  --z-index-fixed: 1030; /* Z-index for fixed elements */
+  --z-index-modal: 1040; /* Z-index for modals */
+  --z-index-popover: 1050; /* Z-index for popovers */
+  --z-index-tooltip: 1060; /* Z-index for tooltips */
+}
